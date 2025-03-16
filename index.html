@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga You | Find Your Balance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Yoga<span>You</span></h1>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#instructors">Instructors</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#">Sign In</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Find Balance, Peace, and Strength</h1>
+                <p>Join our community to transform your body and mind through the practice of yoga.</p>
+                <a href="#classes" class="btn">Explore Classes</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://i.pinimg.com/736x/16/84/d0/1684d0ebf92fb185815329d862e420a7.jpg" alt="Peaceful Yoga Pose">
+            </div>
+        </div>
+    </section>
+
+    <section id="classes" class="classes">
+        <div class="container">
+            <h2 class="section-title">Our Classes</h2>
+            <div class="class-filter">
+                <button class="filter-btn active" data-filter="all">All Classes</button>
+                <button class="filter-btn" data-filter="beginner">Beginner</button>
+                <button class="filter-btn" data-filter="intermediate">Intermediate</button>
+                <button class="filter-btn" data-filter="advanced">Advanced</button>
+            </div>
+            <div class="classes-grid">
+                <div class="class-card" data-category="beginner">
+                    <img src="/images/gentle yoga.jpeg" alt="Gentle Yoga">
+                    <div class="class-info">
+                        <h3>Gentle Yoga</h3>
+                        <p class="class-level">Beginner</p>
+                        <p>A soft, nurturing practice focusing on basic poses and breathing.</p>
+                        <a href="#" class="class-details-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="class-card" data-category="intermediate">
+                    <img src="/images/vinyasa yoga.jpg" alt="Vinyasa Flow">
+                    <div class="class-info">
+                        <h3>Vinyasa Flow</h3>
+                        <p class="class-level">Intermediate</p>
+                        <p>Dynamic sequence of poses, linking breath with movement.</p>
+                        <a href="#" class="class-details-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="class-card" data-category="advanced">
+                    <img src="/images/serene medi.jpg" alt="Power Yoga">
+                    <div class="class-info">
+                        <h3>Meditation</h3>
+                        <p class="class-level">Advanced</p>
+                        <p>Vigorous, composed approach for peaceful mind and stability.</p>
+                        <a href="#" class="class-details-btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="instructors" class="instructors">
+        <div class="container">
+            <h2 class="section-title">Our Instructors</h2>
+            <div class="instructors-grid">
+                <div class="instructor-card">
+                    <img src="https://i.pinimg.com/736x/49/3f/a0/493fa0f13970ab3ef29375669f670451.jpg" alt="Instructor Sarah">
+                    <div class="instructor-info">
+                        <h3>Rishi Kumar</h3>
+                        <p class="instructor-title">Vinyasa & Meditation</p>
+                        <p>10+ years experience in mindful movement and breathing techniques.</p>
+                    </div>
+                </div>
+                <div class="instructor-card">
+                    <img src="https://i.pinimg.com/736x/55/0f/49/550f49a459548599a5a4ea1c67fc0244.jpg" alt="Instructor Michael">
+                    <div class="instructor-info">
+                        <h3>Satya Nathan</h3>
+                        <p class="instructor-title">Hatha & Restorative</p>
+                        <p>Specializes in alignment-based practices and prop utilization.</p>
+                    </div>
+                </div>
+                <div class="instructor-card">
+                    <img src="https://i.pinimg.com/736x/02/ab/66/02ab661562e562e3a65f39f8b7f34861.jpg" alt="Instructor Priya">
+                    <div class="instructor-info">
+                        <h3>Priya Patel</h3>
+                        <p class="instructor-title">Power & Sculpt</p>
+                        <p>Former athlete bringing strength training principles to yoga.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="schedule" class="schedule">
+        <div class="container">
+            <h2 class="section-title">Class Schedule</h2>
+            <div class="schedule-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-day="monday">Monday</button>
+                    <button class="tab-btn" data-day="tuesday">Tuesday</button>
+                    <button class="tab-btn" data-day="wednesday">Wednesday</button>
+                    <button class="tab-btn" data-day="thursday">Thursday</button>
+                    <button class="tab-btn" data-day="friday">Friday</button>
+                    <button class="tab-btn" data-day="saturday">Saturday</button>
+                    <button class="tab-btn" data-day="sunday">Sunday</button>
+                </div>
+                <div class="tab-content">
+                    <div class="day-schedule active" id="monday">
+                        <div class="schedule-item">
+                            <span class="time">7:00 - 8:00 AM</span>
+                            <span class="class-name">Morning Flow</span>
+                            <span class="instructor">Rishi Kumar</span>
+                            <span class="spots">10 spots left</span>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">12:00 - 1:00 PM</span>
+                            <span class="class-name">Lunch Break Yoga</span>
+                            <span class="instructor">Satya Nathan</span>
+                            <span class="spots">5 spots left</span>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">6:00 - 7:30 PM</span>
+                            <span class="class-name">Power Yoga</span>
+                            <span class="instructor">Priya Patel</span>
+                            <span class="spots">8 spots left</span>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="day-schedule" id="tuesday">
+                        <div class="schedule-item">
+                            <span class="time">8:00 - 9:00 AM</span>
+                            <span class="class-name">Gentle Yoga</span>
+                            <span class="instructor">Satya Nathan</span>
+                            <span class="spots">12 spots left</span>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">5:30 - 6:30 PM</span>
+                            <span class="class-name">Vinyasa Flow</span>
+                            <span class="instructor">Rishi Kumar</span>
+                            <span class="spots">3 spots left</span>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                    <!-- Additional days would be added here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="meditation-timer">
+        <div class="container">
+            <h2 class="section-title">Meditation Timer</h2>
+            <div class="timer-container">
+                <div class="timer-display">
+                    <span id="minutes">5</span>:<span id="seconds">00</span>
+                </div>
+                <div class="timer-controls">
+                    <button id="timer-decrease">-</button>
+                    <button id="timer-start">Start</button>
+                    <button id="timer-reset">Reset</button>
+                    <button id="timer-increase">+</button>
+                </div>
+                <div class="timer-message">
+                    <p>Set your meditation time and begin your practice</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Radhakrishna towers, Hyderabad</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@yogayou.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 9705432880</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <select id="subject" required>
+                            <option value="">Select a Subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="classes">Class Information</option>
+                            <option value="private">Private Sessions</option>
+                        </select>
+                        <span class="error-message" id="subject-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Yoga You. All Rights Reserved.</p>
+            <p>Find your balance, peace, and strength with us.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
