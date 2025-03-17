@@ -2,8 +2,12 @@
 
 [YOGAYOU - WEBSITE LINK](https://yogayou.netlify.app)
 
+
+
 ## OVERVIEW
 YogaYou is a responsive web application for a yoga studio that helps users find classes, learn about instructors, view schedules, and connect with the yoga community. The site features a clean, peaceful design to evoke feelings of calm.
+
+![Home Page](images-demo-video/Screenshot-1.png)
 
 ## Features
 
